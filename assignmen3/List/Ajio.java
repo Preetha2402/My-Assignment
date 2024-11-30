@@ -58,12 +58,7 @@ public class Ajio {
 				System.out.println((i+1)+" "+bagnames.get(i).getText());
 			}
 			
-			
-		
-		
-		
-	
-		driver.close();
+			driver.close();
 	}
 
 }
