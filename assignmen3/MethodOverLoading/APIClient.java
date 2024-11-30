@@ -19,11 +19,11 @@ public class APIClient {
 	public static void main(String[] args) {
 		
 		//Inside the main method, create an object of the APIClient class.
-		APIClient status = new APIClient();
+		APIClient web = new APIClient();
 		
 		//Call both versions of the sendRequest method on the APIClient object with different sets of i/p
-		status.sendRequest("Half  project");
-		status.sendRequest("full project");
+		web.sendRequest("Half  project");
+		web.sendRequest("full project");
 		
 	}
 
