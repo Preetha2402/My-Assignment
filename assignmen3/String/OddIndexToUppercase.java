@@ -18,7 +18,7 @@ public class OddIndexToUppercase {
 		if (i % 2 == 1) {
 			
 			//change the char to uppercase in if index
-			System.out.println(Character.isUpperCase(odd[i]));}
+			System.out.println(Character.toUpperCase(odd[i]));}
 		
 		else {
 			System.out.println(odd[i]);
