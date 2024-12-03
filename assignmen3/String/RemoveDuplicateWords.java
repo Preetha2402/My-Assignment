@@ -15,7 +15,7 @@ public class RemoveDuplicateWords {
 		
 		//iterate the array to find duplicates
 		for (int i = 0; i < learn.length; i++) {
-			for (int j = 0; j < learn.length; j++) {
+			for (int j = i+1; j < learn.length; j++) {
 				
 		//check the duplicate words
 			if (learn[i].equalsIgnoreCase(learn[j])) {
