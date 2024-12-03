@@ -19,7 +19,7 @@ public class SortingUsingCollection {
 		//sort te list
 		web.sort(null);
 		
-	for (int i = web.size()-1; i>0; i--) {
+	for (int i = web.size()-1; i>0 to i=0; i--) {
 		System.out.println(web.get(i)+" ");
 		
 	} {
